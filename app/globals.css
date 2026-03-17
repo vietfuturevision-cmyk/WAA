@@ -1,0 +1,33 @@
+/* Thiết lập nền tảng cho phong cách Thực và Thanh */
+:root {
+  --ivory: #F8F5EF;
+  --charcoal: #27241D;
+  --gold: #C5A059;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ivory);
+  color: var(--charcoal);
+  /* Ưu tiên font Be Vietnam Pro cho văn bản để dễ đọc, 
+     Playfair cho các tiêu đề sang trọng */
+  font-family: 'Be Vietnam Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Các tiêu đề mặc định dùng Playfair Display */
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Hiệu ứng mượt mà cho các chuyển động của Framer Motion */
+html {
+  scroll-behavior: smooth;
+}
