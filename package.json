@@ -1,0 +1,27 @@
+{
+  "name": "the-heritage-path",
+  "version": "5.0.0",
+  "description": "The Heritage Path — Wealth Advisor Edition. Luxury real estate advisory landing page.",
+  "private": true,
+  "scripts": {
+    "dev":   "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint":  "next lint"
+  },
+  "dependencies": {
+    "next":          "15.3.0",
+    "react":         "^19.0.0",
+    "react-dom":     "^19.0.0",
+    "framer-motion": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node":    "^22.0.0",
+    "@types/react":   "^19.0.0",
+    "eslint":         "^9.0.0",
+    "eslint-config-next": "15.3.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
